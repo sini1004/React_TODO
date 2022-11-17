@@ -4,15 +4,15 @@
 	--color-bg-dark: #e7e7e7;
 	--color-grey: #d8d4d4;
 	--color-text: #22243b;
-	--color-accent: #fc7b24;
+	--color-accent: #8c24fc;
 	--color-scrollbar: #c9c9c9;
 }
 
 html.dark {
-	--color-bg: #22243b;
-	--color-bg-dark: #141522;
+	--color-bg: #503b67;
+	--color-bg-dark: #2b0153;
 	--color-text: #fdfffd;
-	--color-grey: #919191;
+	--color-grey: #a3a3a3;
 }
 
 * {
@@ -35,8 +35,8 @@ body {
 	background: rgb(81, 87, 111);
 	background: linear-gradient(
 		106deg,
-		rgba(81, 87, 111, 1) 0%,
-		rgba(60, 61, 69, 1) 100%
+		rgb(205, 194, 0) 10%,
+		rgb(40, 0, 89) 100%
 	);
 }
 #root {

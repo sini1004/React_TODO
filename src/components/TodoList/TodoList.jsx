@@ -30,6 +30,7 @@ const TodoList = ({ filter }) => {
 
 	return (
 		<section className={styles.container}>
+			<AddTodo onAdd={handleAdd} />
 			<ul className={styles.list}>
 				{filtered.map((item) => (
 					<Todo
@@ -40,7 +41,6 @@ const TodoList = ({ filter }) => {
 					/>
 				))}
 			</ul>
-			<AddTodo onAdd={handleAdd} />
 		</section>
 	);
 };

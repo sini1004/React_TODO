@@ -3,14 +3,15 @@
 	--color-bg: #fdfffd;
 	--color-bg-dark: #e7e7e7;
 	--color-grey: #d8d4d4;
-	--color-text: #22243b;
-	--color-accent: #8c24fc;
-	--color-scrollbar: #c9c9c9;
+	--color-text: #222222;
+	--color-accent: #F07274;
+	--color-scrollbar: #eaeaea;
 }
 
 html.dark {
-	--color-bg: #503b67;
-	--color-bg-dark: #2b0153;
+	--color-bg: #202020;
+	--color-bg-dark: #F07274;
+	--color-accent: #ffffff;
 	--color-text: #fdfffd;
 	--color-grey: #a3a3a3;
 }
@@ -32,12 +33,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 1.2rem;
-	background: rgb(81, 87, 111);
-	background: linear-gradient(
-		106deg,
-		rgb(205, 194, 0) 10%,
-		rgb(40, 0, 89) 100%
-	);
+	background: var(--color-bg);
 }
 #root {
 	width: 100%;
@@ -47,7 +43,7 @@ body {
 	border-radius: 1rem;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
 	overflow: hidden;
 }
 

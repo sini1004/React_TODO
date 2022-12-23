@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import styles from "./AddTodo.module.css";
+import { BsPlusLg } from 'react-icons/bs';
 
 const AddTodo = ({ onAdd }) => {
 	const [text, setText] = useState("");
@@ -28,7 +29,7 @@ const AddTodo = ({ onAdd }) => {
 				value={text}
 				onChange={handleChange} //변경될때마다 handleChange호출
 			/>
-			<button className={styles.button}>Add</button>
+			<button className={styles.button}><BsPlusLg /></button>
 		</form>
 	);
 };
